@@ -1,0 +1,14 @@
+# harbour_theme-js:
+#   filter: rjsmin
+#   output: ckanext-harbour_theme/%(version)s-harbour_theme.js
+#   contents:
+#     - js/harbour_theme.js
+#   extra:
+#     preload:
+#       - base/main
+
+# harbour_theme-css:
+#   filter: cssrewrite
+#   output: ckanext-harbour_theme/%(version)s-harbour_theme.css
+#   contents:
+#     - css/harbour_theme.css
